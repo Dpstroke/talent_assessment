@@ -30,15 +30,6 @@ An application built with Flutter to assess athletic talent through video. This 
 
 ---
 
-## 📸 Gallery
-
-*(Consider creating a short GIF that showcases the app's flow and adding it here)*
-
-| Login Screen                               | Dashboard                                  | Results Screen                               |
-| ------------------------------------------ | ------------------------------------------ | -------------------------------------------- |
-| *(Add your login screen screenshot here)* | *(Add your dashboard screenshot here)* | *(Add your results screen screenshot here)* |
-
----
 
 ## 🛠️ Tech Stack
 
