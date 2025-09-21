@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "114085549265",
+    "project_id": "talent-assessment-b38bf",
+    "storage_bucket": "talent-assessment-b38bf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114085549265:android:ab4876689089b63bd9a1f0",
+        "android_client_info": {
+          "package_name": "com.example.talent_assessment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxulB2LH5uXrUYrS_AQt_LEGXpMhBm-CI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
