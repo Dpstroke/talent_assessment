@@ -45,5 +45,11 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<key>NSCameraUsageDescription</key>
+<string>This app needs camera access to record fitness assessments.</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>This app needs microphone access for video recording.</string>
+65346d4223bba560eb361c2b113d809338c9d9b7
 </dict>
 </plist>

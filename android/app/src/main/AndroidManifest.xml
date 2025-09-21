@@ -1,4 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
+ 65346d4223bba560eb361c2b113d809338c9d9b7
     <application
         android:label="talent_assessment"
         android:name="${applicationName}"

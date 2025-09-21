@@ -22,11 +22,17 @@ class SitUpCounter {
         debugPrint(
             'Current State: $_state, Calculated Angle: ${angle.toStringAsFixed(2)}');
 
+
         if (_state == 'down' && angle < 140) {
           // Now 135 will trigger the "up" state
           _state = 'up';
         } else if (_state == 'up' && angle > 170) {
           // Now 180 will trigger the "down" state
+
+        if (_state == 'down' && angle < 100) {
+          _state = 'up';
+        } else if (_state == 'up' && angle > 160) {
+ 65346d4223bba560eb361c2b113d809338c9d9b7
           _state = 'down';
           reps++;
         }

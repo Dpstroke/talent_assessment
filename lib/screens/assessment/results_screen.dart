@@ -135,12 +135,19 @@ class _EnhancedResultsScreenState extends State<EnhancedResultsScreen> {
           children: [
             Row(
               children: [
+
                 Expanded(
                   // Wrap the Text widget in an Expanded widget
                   child: Text(title,
                       style: const TextStyle(
                           fontSize: 18, fontWeight: FontWeight.bold)),
                 ),
+
+                Text(title,
+                    style: const TextStyle(
+                        fontSize: 18, fontWeight: FontWeight.bold)),
+                const Spacer(),
+65346d4223bba560eb361c2b113d809338c9d9b7
                 Icon(isValid ? Icons.check_circle : Icons.cancel,
                     color: isValid ? Colors.green : Colors.red),
                 const SizedBox(width: 4),

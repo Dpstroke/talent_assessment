@@ -1,3 +1,4 @@
+
 // This is a basic Flutter widget test.
 //
 // To perform an interaction with a widget in your test, use the WidgetTester
@@ -26,5 +27,24 @@ void main() {
     // Verify that our counter has incremented.
     expect(find.text('0'), findsNothing);
     expect(find.text('1'), findsOneWidget);
+
+// This is a basic example of a Flutter integration test.
+//
+// Since a variety of state management approaches can be used,
+// a simple approach is taken in this example using provider.
+
+import 'package:flutter_test/flutter_test.dart';
+import 'package:talent_assessment/main.dart';
+
+void main() {
+  testWidgets('App launches successfully', (WidgetTester tester) async {
+    // Build our app and trigger a frame.
+    await tester.pumpWidget(const TalentAssessmentApp());
+
+    // Verify that the login screen shows up
+    expect(find.text('Talent Assessment'), findsOneWidget);
+    expect(find.text('Email'), findsOneWidget);
+    expect(find.text('Password'), findsOneWidget);
+65346d4223bba560eb361c2b113d809338c9d9b7
   });
 }

@@ -9,9 +9,17 @@ plugins {
 }
 
 android {
+ HEAD
     namespace = "com.example.talent_assessment"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
+
+
+    namespace = "com.example.talent_assessment"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = "27.3.13750724"
+
+ 65346d4223bba560eb361c2b113d809338c9d9b7
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
